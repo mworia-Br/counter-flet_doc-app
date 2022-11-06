@@ -28,5 +28,5 @@ def main(page: Page):
 
 #Running the app as a desktop application
 #flet.app(target=main) 
-
+#Running app as a web application
 flet.app(target=main, view=flet.WEB_BROWSER)
